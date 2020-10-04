@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    margin-left: 100px;
+    padding: 0;
+}
