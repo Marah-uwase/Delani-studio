@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    margin-left: 100px;
+    padding: 0;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+
+.overlay > img, .h-text {
+    position: relative;
+    top: 33%;
+}
+.h-text{
+    font-family: 'Comfortaa', cursive;
+}
+.smaller-text{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.overlay > img, .welcome {
+    margin-bottom: 30px;
+}
+
+.click {
+    margin-top: 330px;
+}
+.jumbotron-fluid {
+    background-image: url("images/bg-images/h_img.jpg");
+    background-size: cover;
+    height: 668px;
+}
+
+
+.about {
+    height: 250px;
+}
+
+.about h1 {
+    margin-top: 30px;
+}
+.a-text {
+    margin-left: 500px;
+}
+.services {
+    background-image: url("images/bg-images/s_image.jpg");
+    height: 280px;
+}
+
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.small-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 280px;
+}
+
+.what-we-do h1 {
+    margin-top: 30px;
+}
+figcaption{
+    margin-top: 20px;
+}
+.portfolio {
+    /*height: 650px;*/
+    padding-bottom: 50px;
+}
+.contacts {
+    background-image: url("images/bg-images/c_image.jpg");
+    background-size: cover;
+}
+
+.contacts h1 {
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control{
+    background-color: #66000000;
+    color: white;
+}
+.input{
+    margin-top: 30px;
+}
+.b-text{
+    font-family: 'Comfortaa', cursive;
+}
+.m-text{
+    font-family: 'Raleway', sans-serif;
+}
+.name{
+    margin-right: 5px;
+}
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+.email{
+    margin-right: 5px;
+}
+.social{
+    justify-content:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.white{
+    height: 300px;
+    width: 366px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+.img-fluid{
+    max-width: 90%;
+    height: auto;
+}
+.portimg {
+    float: right;
+    position: relative;
+    margin: 5px;
+    /*color: #333;*/
+}
+.portimg .porttext {
+    display: none;
+    opacity: 1;
+    background-color:rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
+textarea::placeholder{
+    color: #ffffff;
+}
