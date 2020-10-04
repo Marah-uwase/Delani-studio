@@ -51,3 +51,19 @@ body {
 .a-text {
     margin-left: 500px;
 }
+.services {
+    background-image: url("images/bg-images/s_image.jpg");
+    height: 280px;
+}
+
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.small-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 280px;
+}
+
