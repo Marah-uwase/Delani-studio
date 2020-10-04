@@ -12,41 +12,41 @@ $(function () {
 
     $('.des').on('click', function () {
         $('.des').slideUp('slow');
-        $(desp).show(500);
+        $(desp).show();
         
     
     });
     $('.dev').on('click', function () {
         $('.dev').slideUp('slow');
-        $(devp).show(500);
+        $(devp).show();
        
     });
     $('.pro').on('click', function () {
         $('.pro').slideUp('slow');
-        $(prop).show(500);
+        $(prop).show();
         
     });
 
     $(desp, destext).on('click', function () {
         $('.des').slideDown();
-        $(desp).hide(500);
+        $(desp).hide();
         
     });
         $(devp, devtext).on('click', function () {
             $('.dev').slideDown();
-            $(devp).hide(500);
+            $(devp).hide();
             
         });
         $(prop, protext).on('click', function () {
             $('.pro').slideDown();
-            $(prop).hide(500);
+            $(prop).hide();
             
         })
 
         $('.portimg').hover(function(){
-            $('.porttext',this).slideToggle('slow');
+            $('.porttext',this).slideToggle();
          }, function(){
-            $('.porttext',this).slideToggle('slow');
+            $('.porttext',this).slideToggle();
          });
 
          $("form#form").on('submit',function(event){
